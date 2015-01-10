@@ -1,0 +1,199 @@
+@font-face {
+    font-family: DroidSansMono;
+    src: url(DroidSansMono.ttf);
+}
+
+
+body {
+    padding: 2% 5%;
+    font-family: DroidSansMono;
+    background: #16161D;
+}
+
+h1 {
+    color: rgba(170,170,255,0.1);
+    transition: all 0.5s;
+}
+
+h2 {
+    color: #222;
+}
+
+h3 {
+    color: rgba(72,72,72,0.2);
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(72,72,72,0.2);
+    margin: 0;
+    padding: 4px 8px;
+    transition: all 0.2s;
+}
+
+#logo {
+    margin: 2% auto 5% auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50px;    
+    border: 1px solid rgba(170,170,255,0.1);
+    transition: all 0.5s;
+
+}
+
+#logo:hover {
+    border-color: rgba(255,216,195,1.0);
+}
+
+#logo:hover h1 {
+    color: rgba(255,216,195,1.0);
+}
+
+.links {
+    margin: 0 20%;
+    padding-bottom: 4%;
+    display: block;
+    float: left;
+    width: 60%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    min-width: 10em;
+    margin: 0 0 36px 0; /* make sure columns match up in edge-cases...*/
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.column:hover h3 {
+    color:  rgba(170,170,255,0.2);
+    border-color:  rgba(170,170,255,0.2);
+}
+
+.column:hover li>a {
+    color: rgba(170,170,255,0.2);
+}
+
+.links li {
+    display: block;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.links li>a {
+    color: rgba(72,72,72,0.2);
+    text-decoration: none;
+    font-size: 14px;
+    width: 100%;
+    margin: 0px;
+    display: block;
+    padding: 8px;
+    transition: all 0.1s;
+}
+
+.links li>a:hover {
+    color: #aaf;
+}
+
+#search_form {
+    clear: both;
+}
+
+input[type="text"] {
+    margin: 5% auto;
+    display: block;
+    width: 58.3%;
+    background-color: #000;
+    color: #666;
+    font-family: DroidSansMono;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+input[type="text"]:focus, input[type="text"]:focus:hover{
+    color: rgba(170,170,255,1.0);
+    outline: none;
+    box-shadow: 0 0 4px rgba(170,170,255,1.0);
+    border-color: #333;
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 4px rgba(170,170,255,0.2);  
+}
+
+::-webkit-input-placeholder, input[type="text"]:focus::-webkit-input-placeholder { /* WebKit browsers */
+    color: #222;
+    padding-left: 0;
+    transition: color 0.5s;
+    transition: padding 0.5s;
+}
+
+input:hover::-webkit-input-placeholder {
+    color:  rgba(170,170,255,0.2);   
+    padding-left: 46.6%;
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background: #333;
+    border: 1px solid #222;
+    display: none;
+}
+
+input[type="submit"]:hover {
+    background: #aaf;
+}
+
+#footer {
+    clear: both;
+    margin: 0% 20%;
+}
+
+#clock {
+    color: rgba(170,170,255,0.1);
+    transition: all 0.5s;
+}
+
+
+#clock:hover {
+    color: rgba(136,204,116,1);
+}
+
+
+/* CUSTOM jQuery UI for Search here... */
+span.ui-helper-hidden-accessible {
+    positon: absolute;
+    display:none;    
+}
+
+ul#ui-id-1.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+    background: rgba(0,0,0,0.5);
+    width: 58%;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(170,170,255,1.0);
+}
+
+li.ui-menu-item {
+    display: block;
+    margin: 0;
+    font-family: DroidSansMono;
+    font-size: 13px;
+    padding: 10px;
+    color: rgba(170,170,255,0.2);  
+
+}
+
+.ui-state-hover, .ui-state-focus, .ui-state-active {
+    color: rgba(170,170,255,1.0);  
+}
