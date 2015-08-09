@@ -2,6 +2,17 @@
 ==========
 A crudely hacked together startpage with various features.
 
+## Installation
+To setup dependencies, you need to 
+```
+git submodule init
+git submodule update
+```
+or alternatively run the included bash-script that does this for you, i.e.
+```
+bash setup.sh
+```
+
 ## Features
 
 ### Start page
