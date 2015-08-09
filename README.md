@@ -1,6 +1,7 @@
 # Custom Startpage
-==========
 A crudely hacked together startpage with various features.
+
+Not yet thoroughly tested, probably won't play nice with IE < 9.
 
 ## Installation
 To setup dependencies, you need to 
