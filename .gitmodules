@@ -1,0 +1,9 @@
+[submodule "assets/FeedEk"]
+	path = assets/FeedEk
+	url = /Users/Eivind/src/Sites/startpage/assets/FeedEk
+[submodule "assets/jquery.googleSuggest"]
+	path = assets/jquery.googleSuggest
+	url = /Users/Eivind/src/Sites/startpage/assets/jquery.googleSuggest
+[submodule "assets/onepage-scroll"]
+	path = assets/onepage-scroll
+	url = /Users/Eivind/src/Sites/startpage/assets/onepage-scroll
