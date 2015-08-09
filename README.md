@@ -16,16 +16,16 @@ bash setup.sh
 ## Features
 
 ### Start page
-![Link](https://github.com/eivind88/repo/blob/demo/1.gif)
+![Links](https://github.com/eivind88/startpage/blob/demo/1.gif)
 
 ### Google search (with autocomplete)
-![Google](https://github.com/eivind88/repo/blob/demo/2.gif)
+![Google](https://github.com/eivind88/startpage/blob/demo/2.gif)
 
 ### RSS feeds
-![RSS](https://github.com/eivind88/repo/blob/demo/3.gif)
+![RSS](https://github.com/eivind88/startpage/blob/demo/3.gif)
 
 ### Latest Xkcd comic
-![Xkcd](https://github.com/eivind88/repo/blob/demo/4.gif)
+![Xkcd](https://github.com/eivind88/startpage/blob/demo/4.gif)
 
 ## Customize
 You can customize the category names and as well as the site titles and urls in
