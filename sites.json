@@ -1,0 +1,36 @@
+var links = {
+    "1": [
+        {"category": "News"},
+
+        {"title": "Feedly",
+        "url": "http://www.feedly.com/my"}
+    ],
+    "2": [
+        {"category": "Tech"},
+
+        {"title": "Hacker News",
+        "url": "https://news.ycombinator.com"},
+        {"title": "Slashdot",
+        "url": "http://www.slashdot.org"},
+        {"title": "Wired",
+        "url": "http://www.wired.com"}
+    ],
+    "3": [
+        {"category": "Code"},
+
+        {"title": "Github",
+        "url": "https://github.com"}
+    ],
+    "4": [
+        {"category": "Fun"},
+
+        {"title": "YouTube",
+        "url": "http://www.youtube.com"},
+        {"title": "Netflix",
+        "url": "http://www.netflix.com"},
+        {"title": "Reddit",
+        "url": "http://www.reddit.com"},
+        {"title": "Xkcd",
+        "url": "http://www.xkcd.com"}
+    ]
+};
