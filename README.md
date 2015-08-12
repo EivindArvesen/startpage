@@ -35,4 +35,4 @@ sites.json
 ```
 
 ## License
-MIT
+[MIT](LICENSE.txt).
