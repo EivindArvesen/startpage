@@ -1,4 +1,6 @@
 # Custom Startpage
+Live demo at [http://eivind88.github.com/startpage/](http://eivind88.github.com/startpage/)
+
 A crudely hacked together startpage with various features.
 
 Not yet thoroughly tested, probably won't play nice with IE < 9.
