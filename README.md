@@ -1,12 +1,12 @@
 # Custom Startpage
-Live demo at [http://eivind88.github.com/startpage/](http://eivind88.github.com/startpage/)
+Live demo at [http://EivindArvesen.github.com/startpage/](http://EivindArvesen.github.com/startpage/)
 
 A crudely hacked together startpage with various features.
 
 Not yet thoroughly tested, probably won't play nice with IE < 9.
 
 ## Installation
-To setup dependencies, you need to 
+To setup dependencies, you need to
 ```
 git submodule init
 git submodule update
@@ -19,16 +19,16 @@ bash setup.sh
 ## Features
 
 ### Start page
-![Links](https://github.com/eivind88/startpage/blob/demo/1.gif)
+![Links](https://github.com/EivindArvesen/startpage/blob/demo/1.gif)
 
 ### Google search (with autocomplete)
-![Google](https://github.com/eivind88/startpage/blob/demo/2.gif)
+![Google](https://github.com/EivindArvesen/startpage/blob/demo/2.gif)
 
 ### RSS feeds
-![RSS](https://github.com/eivind88/startpage/blob/demo/3.gif)
+![RSS](https://github.com/EivindArvesen/startpage/blob/demo/3.gif)
 
 ### Latest Xkcd comic
-![Xkcd](https://github.com/eivind88/startpage/blob/demo/4.gif)
+![Xkcd](https://github.com/EivindArvesen/startpage/blob/demo/4.gif)
 
 ## Customize
 You can customize the category names and as well as the site titles and urls in

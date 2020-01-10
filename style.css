@@ -10,10 +10,6 @@ body {
     background: #16161D;
 }
 
-section {
-    padding: 2% 0;
-}
-
 h1 {
     color: rgba(170,170,255,0.1);
     transition: all 0.5s;
@@ -146,7 +142,6 @@ input[type="submit"]:hover {
 
 .links, .comic  {
     margin: 0 20%;
-    padding-bottom: 4%;
     display: block;
     float: left;
     width: 60%;
@@ -186,9 +181,16 @@ input[type="submit"]:hover {
     width: 25%;
     /*min-width: 12em;*/
     /*max-width:19em;*/
-    margin: 0 0 36px 0; /* make sure columns match up in edge-cases...*/
+    overflow: hidden;
+    margin: 0;
+}
+
+.list {
     padding: 0;
-    border-radius: 5px;
+    margin: 0;
+    height: 40vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 @media (max-width:700px) {
@@ -206,14 +208,14 @@ input[type="submit"]:hover {
     color: rgba(170,170,255,0.2);
 }
 
-.links>ul.column>li {
+.links>.column li {
     display: block;
     float: left;
     width: 100%;
     clear: both;
 }
 
-.links>ul.column>li>a {
+.links>.column li>a {
     width: 94%;
     display: block;
     padding: 8px;
@@ -288,7 +290,7 @@ input[type="submit"]:hover {
 }
 
 #footer {
-    position: fixed;
+
     bottom: 0;
     clear: both;
     margin: 2% 20%;
