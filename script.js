@@ -1,6 +1,13 @@
 function setupSearch() {
   // Set search engine for submit
-  document.getElementById('search_form').action = 'https://www.'+engine+'.com/search';
+  switch (engine.toLowerCase()) {
+    case 'duckduckgo':
+      var action = 'https://www.'+engine+'.com/';
+      break;
+    case 'google':
+      var action = 'https://www.'+engine+'.com/search';
+  }
+  document.getElementById('search_form').action = action;
   document.getElementById('search').placeholder = engine;
   document.getElementById('search').focus();
 
