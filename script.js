@@ -11,6 +11,13 @@ function setupSearch() {
   document.getElementById('search').placeholder = engine;
   document.getElementById('search').focus();
 
+  document.getElementById('search_form').addEventListener("submit", function(event) {
+    if (document.getElementById('search').value.startsWith("http://") || document.getElementById('search').value.startsWith("https://") || document.getElementById('search').value.startsWith("www.")) {
+      event.preventDefault();
+      window.location = document.getElementById('search').value;
+    }
+  });
+
   // initialize search autocompletion...
   $("#search").googleSuggest({secure: true});
 }
