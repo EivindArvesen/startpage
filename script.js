@@ -1,11 +1,12 @@
 function setupSearch() {
   // Set search engine for submit
+  let action;
   switch (engine.toLowerCase()) {
     case 'duckduckgo':
-      var action = 'https://www.'+engine+'.com/';
+      action = 'https://www.'+engine+'.com/';
       break;
     case 'google':
-      var action = 'https://www.'+engine+'.com/search';
+      action = 'https://www.'+engine+'.com/search';
   }
   document.getElementById('search_form').action = action;
   document.getElementById('search').placeholder = engine;
@@ -23,11 +24,11 @@ function setupSearch() {
 }
 
 function loadSites() {
-    for (var i = 0; i < Object.keys(links).length+1; i++) {
-        for (var column in links[i]) {
-            var clmn = document.getElementById("column"+String(i));
-            var newEle = '';
-            for (var j = 0; j < links[i].length; j++) {
+    for (let i = 0; i < Object.keys(links).length+1; i++) {
+        for (const column in links[i]) {
+            const clmn = document.getElementById("column"+String(i));
+            let newEle = '';
+            for (let j = 0; j < links[i].length; j++) {
                 if (j === 0) {
                     newEle += '<h3>' + links[i][j].category + '</h3><ul class="list" id="list1">';
                 }
@@ -41,15 +42,15 @@ function loadSites() {
 }
 
 function startTime() {
-    var today=new Date();
-    var h=today.getHours();
-    var m=today.getMinutes();
-    var s=today.getSeconds();
+    let today=new Date();
+    let h=today.getHours();
+    let m=today.getMinutes();
+    let s=today.getSeconds();
     h = checkTime(h);
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('clock').innerHTML = h+":"+m+":"+s;
-    var t = setTimeout(function(){startTime()},500);
+    const t = setTimeout(function(){startTime()},500);
 }
 
 function checkTime(i) {
