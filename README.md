@@ -1,5 +1,5 @@
 # Custom Startpage
-Live demo at [http://EivindArvesen.github.com/startpage/](http://EivindArvesen.github.com/startpage/)
+Live demo at [https://EivindArvesen.github.com/startpage/](https://EivindArvesen.github.com/startpage/)
 
 A crudely hacked together startpage with various features.
 
