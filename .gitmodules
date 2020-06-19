@@ -1,9 +1,0 @@
-[submodule "assets/FeedEk"]
-	path = assets/FeedEk
-	url = https://github.com/enginkizil/FeedEk.git
-[submodule "assets/jquery.googleSuggest"]
-	path = assets/jquery.googleSuggest
-	url = https://github.com/haochi/jquery.googleSuggest.git
-[submodule "assets/onepage-scroll"]
-	path = assets/onepage-scroll
-	url = https://github.com/peachananr/onepage-scroll.git
