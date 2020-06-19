@@ -1,0 +1,3 @@
+[submodule "assets/jquery.googleSuggest"]
+	path = assets/jquery.googleSuggest
+	url = https://github.com/haochi/jquery.googleSuggest.git
