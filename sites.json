@@ -1,9 +1,36 @@
+var engine = "DuckDuckGo" // "DuckDuckGo" or "Google"
 var links = {
     "1": [
         {"category": "News"},
 
+        {"title": "Al Jazeera",
+        "url": "https://www.aljazeera.com"},
+        {"title": "Le Monde Diplomatique",
+        "url": "https://mondediplo.com"},
+        {"title": "Associated Press",
+        "url": "https://apnews.com"},
+        {"title": "Reuters",
+        "url": "https://www.reuters.com"},
+        {"title": "BBC",
+        "url": "https://www.bbc.com/news"},
+        {"title": "CNN International",
+        "url": "https://edition.cnn.com"},
+        {"title": "NPR",
+        "url": "https://www.npr.org"},
+        {"title": "The Wall Street Journal",
+        "url": "https://www.wsj.com"},
+        {"title": "The New Yorker",
+        "url": "https://www.newyorker.com"},
+        {"title": "Harvard Business Review",
+        "url": "https://hbr.org"},
+        {"title": "The Economist",
+        "url": "https://www.economist.com"},
+        {"title": "MIT Technology Review",
+        "url": "https://www.technologyreview.com"},
+        {"title": "The Guardian",
+        "url": "https://www.theguardian.com/international"},
         {"title": "Feedly",
-        "url": "http://www.feedly.com/my"}
+        "url": "https://www.feedly.com/my"},
     ],
     "2": [
         {"category": "Tech"},
@@ -13,7 +40,17 @@ var links = {
         {"title": "Slashdot",
         "url": "http://www.slashdot.org"},
         {"title": "Wired",
-        "url": "http://www.wired.com"}
+        "url": "http://www.wired.com"},
+        {"title": "The Verge",
+        "url": "https://www.theverge.com"},
+        {"title": "Ars Technica",
+        "url": "https://arstechnica.com"},
+        {"title": "The Register",
+        "url": "https://www.theregister.co.uk"},
+        {"title": "Hacker Noon",
+        "url": "https://hackernoon.com"},
+        {"title": "DEV",
+        "url": "https://dev.to"}
     ],
     "3": [
         {"category": "Code"},
@@ -30,6 +67,8 @@ var links = {
         "url": "http://www.netflix.com"},
         {"title": "Reddit",
         "url": "http://www.reddit.com"},
+        {"title": "Twitter",
+        "url": "https://www.twitter.com"},
         {"title": "Xkcd",
         "url": "http://www.xkcd.com"}
     ]

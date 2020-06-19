@@ -16,5 +16,16 @@ You can customize the category names and as well as the site titles and urls in
 sites.json
 ```
 
+## Installation
+To setup dependencies, you need to
+```
+git submodule init
+git submodule update
+```
+or alternatively run the included bash-script that does this for you:
+```
+bash setup.sh
+```
+
 ## License
 [MIT](LICENSE.txt).
